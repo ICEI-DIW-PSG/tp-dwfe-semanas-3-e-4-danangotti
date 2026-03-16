@@ -1,0 +1,114 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.container{
+display:flex;
+}
+
+body{
+background:#e9e9e9;
+font-family: Georgia, serif;
+font-style:rgb(255, 255, 255);
+}
+
+.curriculo{
+width:1000px;
+margin:40px auto;
+display:flex;
+background:white;
+font-style:rgb(255, 255, 255);
+}
+
+.sidebar{
+width:30%;
+background:#614016;
+padding:40px;
+border-right:1px solid #000000;
+font-style:rgb(255, 255, 255);
+}
+
+.foto{
+width:100%;
+border-radius:4px;
+margin-bottom:20px;
+}
+
+.sidebar h3{
+margin-top:30px;
+font-size:14px;
+letter-spacing:2px;
+font-style:rgb(255, 255, 255);
+}
+
+.sidebar ul{
+list-style:none;
+margin-top:10px;
+font-style:rgb(255, 255, 255);
+}
+
+.sidebar li{
+margin-bottom:6px;
+font-size:14px;
+font-style:rgb(255, 255, 255);
+}
+
+.conteudo{
+margin-left:auto;
+width:70%;
+padding:40px;
+font-style:rgb(255, 255, 255);
+}
+
+.cabecalho{
+background:#d9cfc8;
+padding:30px;
+margin:-40px -40px 40px -40px;
+}
+
+.cabecalho h1{
+letter-spacing:4px;
+}
+
+.cargo{
+color:#555;
+margin-bottom:15px;
+}
+
+.info{
+display:flex;
+gap:60px;
+font-size:14px;
+}
+
+.experiencia h2,
+.educacao h2{
+letter-spacing:2px;
+font-size:14px;
+margin-bottom:20px;
+}
+
+.job{
+margin-bottom:30px;
+}
+
+.job-header{
+display:flex;
+justify-content:space-between;
+margin-bottom: 30px;
+}
+
+.data{
+color:#666;
+font-style:italic;
+}
+
+.job ul{
+margin-top:10px;
+margin-left:20px;
+color:#666;
+}
+.descricao{
+font-style: color white;
+}
